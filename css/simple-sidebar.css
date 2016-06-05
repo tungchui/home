@@ -21,16 +21,25 @@
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
-    left: 20%;
+    left: 250px;
     width: 0;
     height: 100%;
-    margin-left: -20%;
-    overflow-y: auto;
-    background: #ffffff;
+    margin-left: -250px;    
+    overflow-y: auto;  
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+#sidebar-background {
+    
+    background-image: url("../general-images/tung.png");
+    background-position: bottom ; 
+    background-repeat: no-repeat;
+    width: 250px; 
+    height: 95%;
+    min-height: 420px;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -45,9 +54,14 @@
 
 #menu-toggle {
     color: #808080;
-    font-weight: bold;
-    
-    
+    font-weight: bold; 
+    float: right;
+}
+
+#menu-toggle:hover {
+    color: #ffffff;
+    background: rgba(0,0,0,0.6);
+    font-weight: bold; 
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -86,11 +100,13 @@
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
-    text-decoration: none;
+    color: #ffffff;
+    background: rgba(0,0,0,0.6);
 }
 
+
 .sidebar-nav > .sidebar-brand {
-    height: 65px;
+    height: 60px;
     font-size: 30px;
     line-height: 60px;
 }
@@ -105,7 +121,9 @@
     background: rgba(0,0,0,0.6);
 }
 
-@media(min-width:768px) {
+
+@media(min-width:768px) {   
+ 
     #wrapper {
         padding-left: 250px;
     }
