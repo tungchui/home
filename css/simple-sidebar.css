@@ -32,15 +32,12 @@
     transition: all 0.5s ease;
 }
 
-#sidebar-background {
-    
-    background-image: url("../general-images/tung.png");
-    background-position: bottom; 
-    background-repeat: no-repeat;
+#sidebar-img{
+    display: block;
     max-width: 100%;
-    height: 95%;
-    min-height: 420px;
-}
+    color: #808080;
+    padding: 30px 0px 0px 20px;
+ }
 
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
