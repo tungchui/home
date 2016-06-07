@@ -4,7 +4,18 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/* myStyles */
+.pageHeader{
+    margin-top: 10px;
+}
+    
+
+
 /* Toggle Styles */
+.active {    
+    background: rgba(0,0,0,0.6);
+    
+}
 
 #wrapper {
     padding-left: 0;
@@ -13,6 +24,7 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
 
 #wrapper.toggled {
     padding-left: 250px;
@@ -46,10 +58,12 @@
 #page-content-wrapper {
     width: 100%;
     position: absolute;
-    padding: 15px;
+    padding: 15px;   
+    color: #808080;
 }
 
 #menu-toggle {
+    margin-top: 12px;
     color: #808080;
     font-weight: bold; 
     float: right;
@@ -74,13 +88,14 @@
     width: 250px;
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none;    
 }
 
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
     font-weight: bold;
+    
 }
 
 .sidebar-nav li a {
@@ -89,14 +104,10 @@
     color: #808080;
 }
 
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #ffffff;
-    background: rgba(0,0,0,0.6);
-}
 
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a:active,{
     color: #ffffff;
     background: rgba(0,0,0,0.6);
 }
@@ -113,10 +124,7 @@
     font-weight: bold;
 }
 
-.sidebar-nav > .sidebar-brand a:hover {
-    color: #ffffff;
-    background: rgba(0,0,0,0.6);
-}
+
 
 
 @media(min-width:768px) { 
