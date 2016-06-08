@@ -8,14 +8,17 @@
 .pageHeader{
     margin-top: 10px;
 }
+
+ a.active {    
+    background: rgba(0,0,0,0.6);
     
+}   
+
+
 
 
 /* Toggle Styles */
-.active {    
-    background: rgba(0,0,0,0.6);
-    
-}
+
 
 #wrapper {
     padding-left: 0;
@@ -92,7 +95,7 @@
 }
 
 .sidebar-nav li {
-    text-indent: 20px;
+    text-indent: 10px;
     line-height: 40px;
     font-weight: bold;
     
@@ -106,8 +109,8 @@
 
 
 
-.sidebar-nav li a:hover,
-.sidebar-nav li a:active,{
+.sidebar-nav li a:hover, 
+.sidebar-nav li a:active {
     color: #ffffff;
     background: rgba(0,0,0,0.6);
 }
