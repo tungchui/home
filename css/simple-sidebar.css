@@ -196,19 +196,15 @@ body {
        
 	}
     #menu-postion {
-        margin: auto;
-        width: 100%;
-        position: relative;
-        overflow:hidden;
-        
+        width: auto;
+        position: relative;         
     }          
     
     #menu-toggle {
         margin: auto;
         width: 100%;
         position: relative;
-        overflow:hidden;
-        float: left;
+       
         }
 }
         
