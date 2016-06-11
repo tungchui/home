@@ -34,18 +34,24 @@ body {
     
 }
 
+.footbar-nav a {
+	display:block;
+    padding:5px;
+    margin: auto;
+}
+
 .footer-left,
 .footer-center,
 .footer-right{
 	display:inline-block;
-    padding: 20px 20px 0px 30px;
+    padding: 0px 20px 10px 30px;
 }
 
 .footer-left a:hover,
 .footer-center a:hover,
 .footer-right a:hover {
 	color: #99CCFF;
-    text-decoration: none;
+        text-decoration: none;
    }	
 
 .footbar-nav {
@@ -80,10 +86,18 @@ body {
 	line-height: 26px;
 }
 
+
+.email a{
+    display:inline-block;
+    width: 60%;
+}
+
+
 .footer-center p,
 .footer-center a{
+    
 	color: #ffffff;
-    padding-top: 6px;
+    padding:5px;
 
 }
 
@@ -153,8 +167,7 @@ body {
 	background-color: rgba(0,0,0,0.6);
 	padding: 20px 20px 0px 20px;
 	display:inline-block;
-    width: 100%;
-	margin:auto;
+    margin:auto;
     
     }   
     
@@ -166,19 +179,39 @@ body {
     }
     .footbar-nav li {
 		display:block;
-         border-left: 0px solid #92999f;
+        border-left: 0px solid #92999f;
+       
+    }
+    
+    .footbar-nav a {
+		display:block;
         padding:10px;
+        margin: auto;
 	}
       #rightBar{
 	    border-right: 0px solid #92999f;
-        padding: 0px 10px 0px 10px;
+        display:block;
+        padding:10px;
+        margin: auto;
+       
 	}
-  
+    #menu-postion {
+        margin: auto;
+        width: 100%;
+        position: relative;
+        overflow:hidden;
+        
+    }          
     
-    
+    #menu-toggle {
+        margin: auto;
+        width: 100%;
+        position: relative;
+        overflow:hidden;
+        float: left;
+        }
 }
-
-
+        
 /* footer Styles */
 
 /* Toggle Styles */
@@ -234,15 +267,18 @@ body {
 #menu-toggle {
     margin-top: 12px;
     color: #808080;
-    font-weight: bold; 
+    font-weight: bold;
     float: right;
 }
+
 
 #menu-toggle:hover {
     color: #99CCFF;
     background: rgba(0,0,0,0.6);
     font-weight: bold; 
-}
+    position: relative;
+ 
+ }
 
 #wrapper.toggled #page-content-wrapper {
     position: relative;
@@ -297,7 +333,7 @@ body {
 
 
 
-@media(min-width:768px) { 
+@media(min-width:2000px) { 
     
     #wrapper {
         padding-left: 250px;
