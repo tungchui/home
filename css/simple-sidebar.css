@@ -27,7 +27,7 @@ body {
         
 .footer-distributed{
 	background-color: rgba(0,0,0,0.6);
-	padding: 20px 20px 80px 20px;
+	padding: 20px 20px 10px 20px;
 	display:inline-block;
     width: 100%;
 	margin:auto;
@@ -37,27 +37,29 @@ body {
 .footer-left,
 .footer-center,
 .footer-right{
-	display:inline-block;	   
-	}
+	display:inline-block;
+    padding: 20px 20px 0px 30px;
+}
 
 .footer-left a:hover,
 .footer-center a:hover,
 .footer-right a:hover {
-	color: #33CCFF;
-}	
+	color: #99CCFF;
+    text-decoration: none;
+   }	
 
 .footbar-nav {
     list-style: none;
     color: #33383b;
-	margin-left:0px;
-	
 }
 
 .footbar-nav a{
     color: #ffffff;
 }
-.footbar-nav p{
+
+.copy-right {
     color: #92999f;
+    padding-top: 10px;
 }
 
 
@@ -78,9 +80,10 @@ body {
 	line-height: 26px;
 }
 
-.footer-center p{
-	display: inline-block;
+.footer-center p,
+.footer-center a{
 	color: #ffffff;
+    padding-top: 6px;
 
 }
 
@@ -113,12 +116,8 @@ body {
 	color: #ffffff;
 	text-align: center;
 	line-height: 25px;
-
-	
 }
 
-
-        
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
@@ -127,17 +126,56 @@ body {
 	.footer-left,
 	.footer-center,
 	.footer-right{
-		display:inline-block;	
 		padding:10px 25px 20px 25px;
 		width:100%;
 		margin:auto;
 		text-align:center;
 		}
 		
-	.footbar-nav a{
+	.footbar-nav li,
+    .footer-center div {
 		display:inline-block;
-		width:15%;
+        border-left: 2px solid #92999f;
+        padding: 0px 10px 0px 10px;
 	}
+    
+    #rightBar{
+		display:inline-block;
+        border-right: 2px solid #92999f;
+        padding: 0px 10px 0px 10px;
+	}
+
+   .copy-right {
+        color: #92999f;
+        padding-top: 20px;
+    }
+    .footer-distributed{
+	background-color: rgba(0,0,0,0.6);
+	padding: 20px 20px 0px 20px;
+	display:inline-block;
+    width: 100%;
+	margin:auto;
+    
+    }   
+    
+}
+
+@media (max-width: 500px) {
+    #hidden {
+        display: none;
+    }
+    .footbar-nav li {
+		display:block;
+         border-left: 0px solid #92999f;
+        padding:10px;
+	}
+      #rightBar{
+	    border-right: 0px solid #92999f;
+        padding: 0px 10px 0px 10px;
+	}
+  
+    
+    
 }
 
 
@@ -201,13 +239,13 @@ body {
 }
 
 #menu-toggle:hover {
-    color: #ffffff;
+    color: #99CCFF;
     background: rgba(0,0,0,0.6);
     font-weight: bold; 
 }
 
 #wrapper.toggled #page-content-wrapper {
-    position: absolute;
+    position: relative;
     margin-right: -250px;
 }
 
@@ -239,7 +277,7 @@ body {
 
 .sidebar-nav li a:hover, 
 .sidebar-nav li a:active {
-    color: #ffffff;
+    color: #99CCFF;
     background: rgba(0,0,0,0.6);
 }
 
@@ -286,4 +324,7 @@ body {
         position: relative;
         margin-right: 0;
     }
+         
+        
 }
+    
