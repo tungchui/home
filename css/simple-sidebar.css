@@ -315,13 +315,14 @@ body {
 
 
 .sidebar-nav > .sidebar-brand {
-    height: 100px;
+    height: 200px;
     font-size: 30px;
     line-height: 100px;
     
 }
 
 .sidebar-nav > .sidebar-brand a {
+    height: inherit;
     color: #808080;
     font-weight: bold;
 }
