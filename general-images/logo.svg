@@ -4,7 +4,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="200px" viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve" id="logo">
     
-    <a xlink:href="htttp://tuungchui.com/index.html">
+    <a xlink:href="index.html">
     
     <g id="mainFrame">
         <g id="mainBody">
@@ -16,7 +16,7 @@
                 C320.546,124.663,329.501,133.617,329.501,144.663z"/>
         </g>
         <g id="innerShield">
-               <line class="innerShield" x1="70.5" y1="260" x2="70.5" y2="140"/>
+               <line class="innerShield" x1="70.5" y1="260" x2="70.5" y2="140"/>nmjbj 
 
                <line class="innerShield" x1="212.981" y1="57.518" x2="316.521" y2="117.482"/>
 
