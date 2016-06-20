@@ -11,8 +11,19 @@
 
  a.active {    
     background: rgba(0,0,0,0.6);
-    
+    display: inline-block;
+    position: relative; 
+    z-index: 5;
+}  
+
+ object {    
+    display: inline-block;
+    position: relative; 
+    z-index: -5;
 }   
+
+ 
+
 
 body {
     /*background-image: url(../resource/DSC05338-1.jpg);*/

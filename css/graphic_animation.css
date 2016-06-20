@@ -1,24 +1,39 @@
-.outerShield {
-    fill:none;
+
+a.rotateShield:hover,
+a.rotateShield:focus{
+    stroke:#99CCFF;
+    stroke-width:10;
+	stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+
+.beforeRotateShield {
     stroke:#ffffff;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
     stroke-width:5;
-    stroke-linecap:round;
-    stroke-linejoin:round;
-    stroke-miterlimit:10;
 }
 
-
-.mainBody, 
-.innerShield {
-    fill:none;
+.mainFrame:hover,
+.mainFrame:focus {
+    fill:#99CCFF;
+	fill-opacity:0.5;
     stroke:#ffffff;
     stroke-linecap:round;
     stroke-linejoin:round;
     stroke-miterlimit:10;
-    stroke-width:1.5;
+    stroke-width:3;
 }
 
-.logo {
-    height: 50%;
-    width: 50%;
+.mainFrame {
+    fill:#ffffff;
+	fill-opacity:0.1;
+    fill-rule:evenodd;
+    stroke:#ffffff;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+    stroke-width:1.2;
 }
