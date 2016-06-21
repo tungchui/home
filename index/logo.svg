@@ -39,21 +39,26 @@
    
  </defs> 
 	
-			<g class="beforeRotateShield">
-                <a class="rotateShield" xlink:href="../index.html" target="_top"> 
-                    <use class="mainFrame" xlink:href="#mainFrame" x="0" y="0"/>
-                    <use xlink:href="#rotateShield" >
-                        
-                       <animateTransform attributeName="transform"
-                                    type="rotate"
-                                    from="0 200 200" to="360 200 200"
-                                    begin="0s" dur="20s"
-                                    repeatCount="indefinite"
-                          />
-                    </use>
-                   
-                </a>
-			</g>
+			
+                
+                <g>
+                    <a class="rotateShield" xlink:href="../index.html" target="_top"> 
+                        <use class="mainFrame" xlink:href="#mainFrame" x="0" y="0"/>
+
+                        <use xlink:href="#rotateShield">
+
+                           <animateTransform attributeName="transform"
+                                        type="rotate"
+                                        from="0 200 200" to="360 200 200"
+                                        begin="0s" dur="20s"
+                                        repeatCount="indefinite"
+                              />
+                        </use>
+
+                    </a>
+                </g>
+    
+
 		
 	
 </svg>
