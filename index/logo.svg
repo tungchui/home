@@ -40,7 +40,7 @@
  </defs> 
 	
 			<g class="beforeRotateShield">
-                <a class="rotateShield" xlink:href="index.html"> 
+                <a class="rotateShield" xlink:href="index.html" target="_top"> 
                     <use class="mainFrame" xlink:href="#mainFrame" x="0" y="0"/>
                     <use xlink:href="#rotateShield" >
                         
